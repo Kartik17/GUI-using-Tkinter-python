@@ -5,8 +5,8 @@ only the design calculation of a Torsion spring and will grow over the period of
 
 Run using Tkinter.py file.
 
-![alt text](Images/GUI.png)
+![alt text](Images/GUI.PNG)
 
-![alt text](Images/GUI_1.png)
+![alt text](Images/GUI_1.PNG)
 
-![alt text](Images/GUI_2.png)
+![alt text](Images/GUI_2.PNG)
