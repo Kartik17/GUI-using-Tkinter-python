@@ -1,13 +1,9 @@
 from all_lib import *
-from Torsion_spring import *
 from start_page import *
-
+from Torsion_spring import *
+from Recommend_Mat import *
 
 #fig, axis = plt.subplots(1,1, figsize =(8,4))
-
-
-LARGE_FONT=("Verdana", 12)
-
 
 def _msgBox():
 	mBox.showinfo('Torsion Spring Calculator', 'A Python Torsion spring calculator GUI created using tkinter:\nBy Kartik.')
@@ -35,10 +31,10 @@ class Spring_Tool(tk.Tk):
 		container.pack(side="top", fill="both", expand = True)
 		container.grid_rowconfigure(1, weight=10)
 		container.grid_columnconfigure(1, weight=10)
-		self.geometry('640x480')
+		self.geometry('800x600')
 		self.menu_bar()
 		self.frames = {}
-		all_frame = (StartPage,TorsionPage)
+		all_frame = (StartPage,TorsionPage, RecommendMaterial)
 		for F in all_frame:
 			pagename = F.__name__
 			frame = F(container,self)
@@ -55,4 +51,6 @@ class Spring_Tool(tk.Tk):
 if __name__ == '__main__':		
 	app = Spring_Tool()
 	app.mainloop()
+	app.resizable(width = False, height = False)
+
 #round(self.entry.get(), 2)
