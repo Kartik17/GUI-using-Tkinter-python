@@ -4,3 +4,9 @@ The repository contains code for the development of a GUI to automate the work d
 only the design calculation of a Torsion spring and will grow over the period of time.
 
 Run using Tkinter.py file.
+
+![alt text](Images/GUI.png)
+
+![alt text](Images/GUI_1.png)
+
+![alt text](Images/GUI_2.png)
